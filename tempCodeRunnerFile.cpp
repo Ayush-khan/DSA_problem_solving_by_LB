@@ -1,8 +1,6 @@
-else{
-        //      int temp=arr[i];
-        //     int temp1=arr[j];
-        //     arr[i]=temp1;
-        //     arr[j]=temp;
-        //     i++;
-        //     j++;
-        // }
+ int uniqe=0;
+        for(int i=0;i<Size;i++){
+            uniqe=uniqe^arr[i];
+            cout<<"*******"<<uniqe<<"******"<<endl;
+        }
+        return uniqe;
