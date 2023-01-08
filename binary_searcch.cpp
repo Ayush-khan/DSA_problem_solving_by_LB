@@ -40,6 +40,7 @@ public:
                         // cout << "Arr[" << j << "]= " << arr[j];
                         return j;
                     }
+                 
                     j++;
                 }
                 // while(i)

@@ -4,25 +4,29 @@ using namespace std;
 class Solution{
     public:
     bool palindrom(int num){
-      string test=to_string(num);
+      // string test=to_string(num);
     //   string reverse=
     int i=num;
     int count=0;
+    int remender=0;
+    
+    // count the size of number.
     while(i>0){
-      int remender=i%10;
-       
-         cout<<num ;
-      cout<<remender<<endl;
-      count++; 
+      remender=remender*10+i%10;
        i=i/10;
+    //      cout<<num ;
+    //   cout<<remender<<endl;
+    //   count++; 
+    //    i=i/10;
           
-          }
-          int arr[count];
+    //       }
+    //       int arr[count];
         //   problem is that how we can enter the values in an array:
         //   for(int l=0;l<count;l++){
         //      cin>>arr[i];
-        //   }
-      cout<<count<<"******"<<endl;
+          }
+      // cout<<remender<<"******"<<endl;
+      return remender;
     }
 };
 int main(){
@@ -30,11 +34,13 @@ int main(){
     int num;
     cout<<"Plz Enter a number"<<endl;
     cin>>num;
+    cout<<num<<endl;
     int ans=s1.palindrom(num);
-    if(ans){
-        cout<<"Number is palindrom"<<endl;
+    cout<<" "<<ans<<endl;
+    if(ans!=num){
+        cout<<"Number is not palindrom"<<endl;
     }
     else{
-        cout<<"Nuber is not palindrom"<<endl;
+        cout<<"Nuber is palindrom"<<endl;
     }
 }

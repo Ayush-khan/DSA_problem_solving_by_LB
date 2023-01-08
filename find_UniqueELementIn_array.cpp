@@ -14,7 +14,7 @@ class Solution{
 int main()
 {
     int Size;
-    cout << "enter the size of an array" << endl;
+    cout << "Enter the size of an array" << endl;
     cin >> Size;
     int arr[Size];
     cout << "Enter the elements in the array" << endl;
