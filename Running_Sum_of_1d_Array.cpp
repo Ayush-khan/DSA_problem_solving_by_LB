@@ -6,23 +6,21 @@ class Solution
 {
 public:
     vector<int> runningSum(vector<int> &nums)
-    {   
-        vector<int>v1;
-         vector<int>::iterator it=v1.begin();
-        int i,sum=0;
-        int j=1;
-        while(i<nums.size()){
-            sum=sum+nums[i];
-            v1.push_back(sum);
-            // v1[i]=sum;
-            i++;
-        }
-         for (; it < nums.end(); it++)
     {
-        cout << *it << " ";
-        // cin >> arr[i];
-    }
-        return nums;
+        vector<int> v1;
+        int sum = 0;
+        for (int i = 0; i < nums.size(); i++)
+        {
+            sum += nums[i];
+            // cout << sum << " ";
+            v1.push_back(sum);
+        }
+        //     vector<int>::iterator it=v1.begin();
+        //      for (; it < nums.end(); it++)
+        // {
+        //     cout << *it << " ";
+        // }
+        return v1;
     }
 };
 int main()
@@ -33,7 +31,7 @@ int main()
     // cin >> Size;
     // int arr[Size];
     vector<int>::iterator it = v1.begin();
-    cout << "Enter the elements in the Vector" << endl; // array must be enter in the sorted order
+    cout << "The elements in the Vector" << endl; // array must be enter in the sorted order
     for (; it < v1.end(); it++)
     {
         cout << *it << " ";
@@ -48,8 +46,13 @@ int main()
     //      << "Enter the element which you want to find:"<<endl;
     // cin >> element;
     Solution s1;
-    // int find=
-    s1.runningSum(v1);
+    vector<int>v2=s1.runningSum(v1);
+    vector<int>::iterator it1=v2.begin();
+    cout<<endl<<"Array after sum of its each element is:"<<endl;
+    while(it1!=v2.end()){
+        cout<<*it1<<" ";
+        it1++;
+    }
 
     //  cout << "Index of an element is:" << endl;
     //                     cout << "Arr[" << index<< "]= " << arr[index];
