@@ -3,11 +3,11 @@
 using namespace std;
 class Solution{
     public:
-    bool palindrom(int num){
+    int palindrom(int num){
       // string test=to_string(num);
     //   string reverse=
     int i=num;
-    int count=0;
+    // int count=0;
     int remender=0;
     
     // count the size of number.
@@ -24,9 +24,15 @@ class Solution{
         //   problem is that how we can enter the values in an array:
         //   for(int l=0;l<count;l++){
         //      cin>>arr[i];
+        // count++;
           }
-      // cout<<remender<<"******"<<endl;
-      return remender;
+          if(num==remender){
+            return true;
+          }
+          else{
+            return false;
+          }
+
     }
 };
 int main(){
@@ -35,12 +41,13 @@ int main(){
     cout<<"Plz Enter a number"<<endl;
     cin>>num;
     cout<<num<<endl;
+    // cout<<s1.palindrom(num);
     int ans=s1.palindrom(num);
-    cout<<" "<<ans<<endl;
-    if(ans!=num){
-        cout<<"Number is not palindrom"<<endl;
+    // cout<<" "<<ans<<endl;
+    if(ans==true){
+        cout<<"Number is palindrom"<<endl;
     }
     else{
-        cout<<"Nuber is palindrom"<<endl;
+        cout<<"Nuber is not  palindrom"<<endl;
     }
 }
