@@ -6,8 +6,6 @@ public:
     int mySqrt(int x)
     {
         int i = 0;
-        // int perfect=x;
-        // x=x*10000;
         // ******** My solution doest not work time exced
         for (i; i * i <= x; i++);
         i--;
