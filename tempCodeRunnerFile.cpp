@@ -1,8 +1,3 @@
- // if (num == remender)
-        // {
-        //     return true;
-        // }
-        // else
-        // {
-        //     return false;
+for(int i=0;i<nums.size();i++){
+        //     if()
         // }
