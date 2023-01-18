@@ -11,22 +11,23 @@ public:
         int count1 = 0;
         for (int i = 0; i < nums.size(); i++)
         {
-            if (nums[i] == 1)
+            if (nums[i] == 0)
             {
                 // if(nums[i+1]==1)
                 count++;
             }
             else
             {
-                // if(count>count1 && count!=0){
-                // count1=count;
+                if(count>=count1 && count!=0){
+                count1=count;
 
                 count = 0;
+                }
             }
-            if (count > count1)
-            {
-                count1 = count;
-            }
+            // if (count > count1)
+            // {
+            //     count1 = count;
+            // }
         }
         return count1;
     }
@@ -40,7 +41,7 @@ public:
 int main()
 {
     // int target;
-    vector<int> v1 = {1, 1, 1,1,1,1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1};
+    vector<int> v1 = {1, 1, 1,1,1,1, 1, 0, 0, 0, 1,1,1,1,1,1,1, 0,0,0, 1, 1, 1, 1, 0,0, 0, 1, 1};
     cout << "Enter the targeted element of an array" << endl;
     // cin >> target;
     Solution s1;
