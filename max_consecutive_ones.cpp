@@ -17,13 +17,14 @@ public:
                 count++;
             }
             else
-            {
+            {     //ye logic mera khud ka hai or kaam kar rha hai
                 if(count>=count1 && count!=0){
                 count1=count;
 
                 count = 0;
                 }
-            }
+            }  
+            // ye uthaya hai or kaam kar rha hai
             // if (count > count1)
             // {
             //     count1 = count;
