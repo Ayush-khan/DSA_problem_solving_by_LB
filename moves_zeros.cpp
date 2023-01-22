@@ -7,6 +7,7 @@ class Solution
 public:
     void moveZeroes(vector<int> &nums)
     {
+        cout<<"******Welcome friends********"<<endl;
         sort(nums.begin(), nums.end());
         vector<int>::iterator it = nums.begin();
         cout << "HELLOO" << endl;
