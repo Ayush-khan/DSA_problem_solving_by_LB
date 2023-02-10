@@ -11,10 +11,7 @@ class Solution{
                 if(nums1[i]==nums2[j]){
                     notFound=0;
                     return nums1[i];
-                }
-                // else{
-                //     return -1;
-                // }
+                } 
             }
         }
         if(notFound!=0){
