@@ -14,8 +14,8 @@ class Solution{
         int e=arr.size()-1;
         while(s<e){
             int mid=(s+e)/2;
-            if(arr[s]<arr[mid]){
-                s=mid;
+            if(arr[mid]<arr[mid+1]){
+                s=mid+1;
                 // e=mid;
             }
             else{
@@ -27,7 +27,7 @@ class Solution{
 
 };
 int main(){
-    vector<int>v1={0,1,4,6,7,9,10,23,24,25,26,27,22,11,1,0};
+    vector<int>v1={0,1,4,6,7,25,22,11,1,0};
     Solution s1;
    int ans= s1.peakIndexInMountainArray(v1);
    cout<<"THe index is:["<<ans<<"]= "<<v1[ans]<<endl;
