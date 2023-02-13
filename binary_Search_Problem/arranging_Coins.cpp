@@ -9,18 +9,26 @@ class Solution {
     int arrangeCoins(int n){
         int count=0;
         int sum=0;
-        for(int i=0;i<n;i++){
-              if(n==0 || n==1){
-                return 0;
+        for(int i=1;i<=n;i++){
+              if(n==0 ){
+                return count;
+            } 
+            else if(n==1){
+                return 1;
+            }
+            else if(sum<n){
+                cout<<"before_Sum= "<<sum<<endl;
+                  sum+=i; 
+                  cout<<"sum= "<<sum<<endl;
             }
             else if(sum==n ){
+                cout<<"HELLOW WE are inside sum==n"<<sum<<"="<<n<<endl;
                 cout<<"KELLO"<<count<<endl;
                 return count;
             }
-            else if(sum<n){
-                  sum+=i; 
-            }
+           
             else if(sum>n){
+                // cout<<"THGIDDDDD"<<endl;
                 return count-1;
             }
            
