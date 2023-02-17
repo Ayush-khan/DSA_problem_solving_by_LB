@@ -45,6 +45,7 @@ public:
 };
 int main()
 {
+    // 
     Solution s1;
     int row;
     cout << "Enter a number of rows" << endl;
