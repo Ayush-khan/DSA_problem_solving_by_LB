@@ -63,6 +63,7 @@ int main()
     vector<int> v1 = {48763, 25, 83, 4, 77};
     vector<int> result = s1.separateDigits(v1);
     cout << "Vector:= ";
+    // trying to solve
     for (int i = 0; i < result.size(); i++)
     {
         cout << "[" << result[i] << "]";
