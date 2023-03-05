@@ -64,6 +64,7 @@ int main()
     vector<int> result = s1.separateDigits(v1);
     cout << "Vector:= ";
     // trying to solve
+    // solved
     for (int i = 0; i < result.size(); i++)
     {
         cout << "[" << result[i] << "]";
