@@ -4,7 +4,7 @@
 using namespace std;
 class Solution
 {
-    // given that
+    // given that here
 public:
     int getCommon(vector<int> &nums1, vector<int> &nums2)
     {
