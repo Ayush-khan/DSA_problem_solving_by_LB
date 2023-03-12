@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
+// Program to fing the palindrome
 class Solution
 {
 public:
