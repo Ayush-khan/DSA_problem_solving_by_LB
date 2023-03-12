@@ -60,6 +60,7 @@ public:
 int main()
 {
     Solution s1;
+    // This is v1 a vector
     vector<int> v1 = {48763, 25, 83, 4, 77};
     vector<int> result = s1.separateDigits(v1);
     cout << "Vector:= ";
