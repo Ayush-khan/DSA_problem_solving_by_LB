@@ -9,6 +9,7 @@ int reverse_Array(int arr[],int size){
  }
 
 }
+// main function
 int main(){
     int Size;
     cout<<"enter the size of an array"<<endl;
