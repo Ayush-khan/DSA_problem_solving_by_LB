@@ -1,3 +1,4 @@
+// The problem is to find the unique number 
 #include<iostream>
 using namespace std;
 class Solution{
