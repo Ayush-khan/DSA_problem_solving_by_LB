@@ -1,4 +1,4 @@
-// 34.leedcode: Find First and Last Position of Element in Sorted Array
+// 34.leedcode: Find the First and Last Position of Element in Sorted Array
 #include <iostream>
 #include <vector>
 #include <algorithm>
