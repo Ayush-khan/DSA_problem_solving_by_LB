@@ -34,7 +34,7 @@ public:
 };
 
 int main()
-{          //mid index ke baad kaamkar rha hai mid index se phle kaam nahi kar rha abhi ye program
+{          //mid indexes ke baad kaamkar rha hai mid index se phle kaam nahi kar rha abhi ye program
     int target;
     vector<int> v1={4,5,6,7,0,1,2,3};
     cout << "Enter the size of an array" << endl;
