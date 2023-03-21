@@ -1,7 +1,7 @@
 // find square root of a number program
 #include <iostream>
 using namespace std;
-// class solution
+// class solution 
 class solution
 {
 public:
