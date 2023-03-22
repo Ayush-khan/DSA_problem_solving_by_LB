@@ -45,6 +45,7 @@ int main()
     {
         cout << "arr[" << i << "]= " << arr[i] << "  ";
     }
+    // solution class
     solution s1;
     s1.swap(arr,Size);
     cout<<endl<<"After swaping the elements"<<endl;
