@@ -32,7 +32,7 @@ public:
         //  mid=-1;
     }
 };
-
+// main function
 int main()
 {          //mid indexes ke baad kaamkar rha hai mid index se phle kaam nahi kar rha abhi ye program
     int target;
