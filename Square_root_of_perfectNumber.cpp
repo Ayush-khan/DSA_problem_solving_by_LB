@@ -13,7 +13,7 @@ public:
         return i;
     }
 };
-// main function
+//  This is the main function
 int main()
 {
     Solution s1;
