@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-// ****This is the a sorting is js but there callBack function do their job****
+// ****This is the function of sorting is js but there callBack function do their job****
 int main(){
     int arr[]={23,45,11,1,2,3,432};
     for(int i=0;i<sizeof(arr)/sizeof(arr[0]);){
