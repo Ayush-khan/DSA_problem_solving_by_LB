@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+// Solution class 
 class solution
 {
 public:
