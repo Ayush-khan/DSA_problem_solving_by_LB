@@ -1,7 +1,8 @@
-// Main program
+                                                    // Main program
 #include <iostream>
 #include <vector>
 using namespace std;
+// main function
 int main()
 {
     vector<int> nums;
