@@ -1,8 +1,8 @@
-                                                    // Main program
+//  Main program
 #include <iostream>
 #include <vector>
 using namespace std;
-// main function
+//  Main function
 int main()
 {
     vector<int> nums;
@@ -14,7 +14,7 @@ int main()
             break;
         }
     }
-    nums.erase(nums.begin(), nums.begin() + i); // remove the stating zeros
+    nums.erase(nums.begin(), nums.begin() + i);// remove the stating zeros
     for (int j = 0; j < i; j++)
     {
         nums.push_back(0);
