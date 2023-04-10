@@ -10,6 +10,7 @@ for(int i=0;i<Size;i+=1){
 }
     }
 };
+// main function
 int main()
 {
     int Size;
