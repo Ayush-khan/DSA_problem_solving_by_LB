@@ -10,14 +10,14 @@ for(int i=0;i<Size;i+=1){
 }
     }
 };
-// main function
+// main function of the program
 int main()
 {
     int Size;
     cout << "enter the size of an array" << endl;
     cin >> Size;
     int arr[Size];
-    cout << "Enter the elements in the array" << endl;
+    cout<< "Enter the elements in the array" << endl;
     for (int i = 0; i < Size; i++)
     {
         cin >> arr[i];
